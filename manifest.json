@@ -1,0 +1,20 @@
+{
+  "manifest_version": 3,
+  "name": "Churras Odds",
+  "version": "1.3",
+  "description": "Converte odds americanas para odds a sério.",
+  "permissions": ["scripting", "activeTab"],
+  "action": {
+    "default_popup": "popup.html",
+    "default_icon": {
+      "16": "icon.png"
+    }
+  },
+  "background": {
+    "service_worker": "background.js"
+  },
+  "host_permissions": ["<all_urls>"],
+  "icons": {
+    "16": "icon.png"
+  }
+}
